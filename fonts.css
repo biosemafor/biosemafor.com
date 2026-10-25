@@ -1,0 +1,85 @@
+/* bricolage-grotesque-latin-500-normal */
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(bricolage-grotesque-latin-500-normal.woff2) format("woff2");
+}/* bricolage-grotesque-latin-700-normal */
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(bricolage-grotesque-latin-700-normal.woff2) format("woff2");
+}/* bricolage-grotesque-latin-800-normal */
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: url(bricolage-grotesque-latin-800-normal.woff2) format("woff2");
+}/* atkinson-hyperlegible-latin-400-normal */
+@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(atkinson-hyperlegible-latin-400-normal.woff2) format("woff2");
+}/* atkinson-hyperlegible-latin-700-normal */
+@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(atkinson-hyperlegible-latin-700-normal.woff2) format("woff2");
+}/* atkinson-hyperlegible-latin-400-italic */
+@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(atkinson-hyperlegible-latin-400-italic.woff2) format("woff2");
+}/* bricolage-grotesque-latin-ext-500-normal */
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(bricolage-grotesque-latin-ext-500-normal.woff2) format("woff2");
+}/* bricolage-grotesque-latin-ext-700-normal */
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(bricolage-grotesque-latin-ext-700-normal.woff2) format("woff2");
+}/* bricolage-grotesque-latin-ext-800-normal */
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: url(bricolage-grotesque-latin-ext-800-normal.woff2) format("woff2");
+}/* atkinson-hyperlegible-latin-ext-400-normal */
+@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(atkinson-hyperlegible-latin-ext-400-normal.woff2) format("woff2");
+}/* atkinson-hyperlegible-latin-ext-700-normal */
+@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(atkinson-hyperlegible-latin-ext-700-normal.woff2) format("woff2");
+}/* atkinson-hyperlegible-latin-ext-400-italic */
+@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(atkinson-hyperlegible-latin-ext-400-italic.woff2) format("woff2");
+}
