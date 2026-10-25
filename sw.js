@@ -1,10 +1,10 @@
 // BioSemafor – fonctionnement hors ligne.
 // Après chaque modification de l'application, augmentez le numéro de version ci-dessous.
-const VERSION = "biosemafor-v1";
+const VERSION = "biosemafor-v3";
 const FILES = [
   "./", "index.html", "manifest.webmanifest",
-  "icons/favicon.svg", "icons/icon-192.png", "icons/icon-512.png", "icons/icon-maskable-512.png", "icons/apple-touch-icon.png",
-   "fonts/atkinson-hyperlegible-latin-400-italic.woff2",  "fonts/atkinson-hyperlegible-latin-400-normal.woff2",  "fonts/atkinson-hyperlegible-latin-700-normal.woff2",  "fonts/atkinson-hyperlegible-latin-ext-400-italic.woff2",  "fonts/atkinson-hyperlegible-latin-ext-400-normal.woff2",  "fonts/atkinson-hyperlegible-latin-ext-700-normal.woff2",  "fonts/bricolage-grotesque-latin-500-normal.woff2",  "fonts/bricolage-grotesque-latin-700-normal.woff2",  "fonts/bricolage-grotesque-latin-800-normal.woff2",  "fonts/bricolage-grotesque-latin-ext-500-normal.woff2",  "fonts/bricolage-grotesque-latin-ext-700-normal.woff2",  "fonts/bricolage-grotesque-latin-ext-800-normal.woff2",  "fonts/fonts.css"
+  "favicon.svg", "icon-192.png", "icon-512.png", "icon-maskable-512.png", "apple-touch-icon.png",
+   "atkinson-hyperlegible-latin-400-italic.woff2",  "atkinson-hyperlegible-latin-400-normal.woff2",  "atkinson-hyperlegible-latin-700-normal.woff2",  "atkinson-hyperlegible-latin-ext-400-italic.woff2",  "atkinson-hyperlegible-latin-ext-400-normal.woff2",  "atkinson-hyperlegible-latin-ext-700-normal.woff2",  "bricolage-grotesque-latin-500-normal.woff2",  "bricolage-grotesque-latin-700-normal.woff2",  "bricolage-grotesque-latin-800-normal.woff2",  "bricolage-grotesque-latin-ext-500-normal.woff2",  "bricolage-grotesque-latin-ext-700-normal.woff2",  "bricolage-grotesque-latin-ext-800-normal.woff2",  "fonts.css"
 ];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(VERSION).then(c => c.addAll(FILES)).then(() => self.skipWaiting()));
