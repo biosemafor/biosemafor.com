@@ -1,0 +1,26 @@
+<html>
+    <body>
+        <script>
+            window.location = "https://docs.pwabuilder.com/#/builder/android?id=publish";
+        </script>
+    </body>
+</html>
+
+Keep this file and signing.keystore in a safe place. You'll need these files if you want to upload future versions of your PWA to the Google Play Store.
+
+Key store file: signing.keystore
+Key store password: AV2JCy6ITIaC
+Key alias: my-key-alias
+Key password: AV2JCy6ITIaC
+Signer's full name: BioSemafor Admin
+Signer's organization: BioSemafor
+Signer's organizational unit: Engineering
+Signer's country code: CH
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.biosemafor.app",
+        "sha256_cert_fingerprints": ["51:21:12:3D:D1:BF:C4:28:87:99:18:66:A1:46:79:3A:E1:E0:79:0D:F7:DD:57:08:22:00:58:47:FA:99:51:C0"]
+      }
+    }]
